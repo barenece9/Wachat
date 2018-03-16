@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wachat="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/appBar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/p_grp_lr"
+        android:paddingRight="@dimen/p_grp_lr"
+        android:paddingTop="@dimen/p_grp_t">
+
+        <com.wachat.customViews.ChatRoundedImageView
+            android:id="@+id/iv_Group"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_new_group_icon" />
+
+
+        <com.wachat.customViews.ChatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/m_grp_lt"
+            android:layout_marginTop="@dimen/m_grp_lt"
+            android:text="@string/provide_grp_sub_icon"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_large"
+            wachat:customFont="@string/font" />
+
+    </LinearLayout>
+
+
+    <com.wachat.customViews.components.ChatCustomRelativeWithEmoji
+        android:id="@+id/rel_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_custom_rel_t">
+
+    </com.wachat.customViews.components.ChatCustomRelativeWithEmoji>
+
+    <RelativeLayout
+        android:id="@+id/create_group_touch_layer_for_emoji_hide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/emojicons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:wachat="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    >
+
+
+    <include
+        android:id="@+id/appBar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <include
+        layout="@layout/include_recycler"
+        android:layout_below="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.wachat.customViews.ChatTextView
+        android:id="@android:id/empty"
+        wachat:customFont="@string/font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/m_common"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:text="@string/no_data"
+        android:textColor="@color/chat_text_color"
+        android:textSize="@dimen/text_size_xlarge" />
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/info_img"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <com.wachat.customViews.ChatTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:textColor="@color/app_Brown"
+            android:textSize="@dimen/text_size_large" />
+
+        <com.wachat.customViews.ChatTextView
+            android:id="@+id/subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:visibility="gone"
+            android:textColor="@color/app_Brown"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/info_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_info" />
+</RelativeLayout>

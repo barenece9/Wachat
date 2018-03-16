@@ -1,0 +1,298 @@
+<resources>
+    <string name="app_name">VhoRText</string>
+
+    <string name="font_bold">font/Roboto-Regular_1.ttf</string>
+    <string name="font">font/Roboto-Light_1.ttf</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <!-- wachat string -->
+    <string name="text_member">Member</string>
+    <string name="text_admin">Admin</string>
+
+
+    <!-- common alert-->
+    <string name="no_internet">No internet connection available!</string>
+    <string name="already_paired">You are already registered with another device. Do you want to proceed using this device?</string>
+
+    <!--toolbar-->
+
+    <!-- Search -->
+
+    <!-- registration -->
+    <string name="et_hint_phone_number">Enter mobile number</string>
+    <string name="alert_no_country">Please enter your country code.</string>
+    <string name="alert_enter_name">Please enter your name.</string>
+    <string name="alert_enter_mobile_number">Please enter your mobile number.</string>
+    <!-- chat screen inflater -->
+    <string name="text_profile_name">Bobby Mackenna</string>
+    <string name="text_profile_status">Check out my new icons!!</string>
+    <string name="receive_at">Received</string>
+    <string name="sent_at">Sent</string>
+
+    <!-- invite friend inflater -->
+    <string name="frined_name">Friend Name</string>
+
+    <!-- Group chat screen inflater -->
+    <string name="text_group_name">My Friends</string>
+    <string name="text_group_status">We are friends..</string>
+
+
+
+    <!-- more screen options text -->
+    <string name="invite">Invite Friends</string>
+    <string name="edit">Edit Profile</string>
+    <string name="view_block_user">View Block User</string>
+    <string name="update_status">Update Status</string>
+    <string name="delete_acc">Delete Account</string>
+    <string name="settings">Settings</string>
+
+    <!--new group screen-->
+    <string name="provide_grp_sub_icon">Please provide group subject and optional group icon</string>
+    <string name="group_text">Type group subject here...</string>
+
+
+    <!--  screen title-->
+
+    <string name="chats">Chats</string>
+    <string name="favorite">Favorites</string>
+    <string name="groups">Groups</string>
+    <string name="contacts">Contacts</string>
+    <string name="more">More</string>
+    <string name="newGroup">New Group</string>
+    <string name="editGroup">Edit Group</string>
+    <string name="blockUser">Block User</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="updateStatus">Status</string>
+    <string name="selectCountry">Select Country</string>
+    <string name="findPeople">Find People</string>
+    <string name="shareImage">Share Image</string>
+    <string name="choosePeople">Choose People</string>
+    <string name="authentication">Authentication</string>
+    <string name="selectLanguage">Select Language</string>
+    <string name="friendProfile">Friend Profile</string>
+    <string name="inviteFriends">Invite Friends</string>
+    <string name="setLocation">Set Location</string>
+    <string name="viewLocation">View Location</string>
+    <string name="ActivityYouTubeVideoList">YouTube</string>
+    <string name="ActivityYahooNewsList">Yahoo News</string>
+    <!--authentication-->
+
+    <string name="authentication_text"> We have sent a sms with activation code to your phone</string>
+
+    <string name="reset_ph_no">Re-enter phone number</string>
+    <string name="resend_code">Resend verification code</string>
+
+    <!--create new group-->
+    <string name="add_at_least_two_memeber">Add atleast two member to create</string>
+    <string name="select_at_least_one_friend">Please select a friend to send invitation</string>
+    <string name="hint_search">search...</string>
+
+
+    <!--settings screen-->
+
+    <string name="find_me_by_location">Find Me by My Location</string>
+    <string name="find_me_by_ph_no">Keep My Phone Number Private</string>
+    <string name="about">About</string>
+    <string name="help">Help/FAQ</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="copyright_info">Copyright info</string>
+
+    <!--dialog more-->
+    <string name="clear_conversation">Clear Conversation</string>
+    <string name="email_conversation">Email Conversation</string>
+    <string name="block">Block</string>
+
+    <!-- dialog delete-->
+    <string name="delete_text">Do you want to delete ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="clear_conv">All conversation deleted successfully</string>
+
+    <string name="acc_delete_text">Do you want to delete this account?</string>
+    <string name="invite_text">Do you want to invite %1$s?</string>
+    <string name="invite_text_generic">Do you want to invite this friend?</string>
+
+    <!--    unblock dilaog-->
+    <string name="unblock_text">Do you want to unblock this person ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <!-- dialog gender-->
+    <string name="choose_gender">Choose Your Gender</string>
+    <string name="female">Female</string>
+
+    <!-- dialog registartion confirmation-->
+    <string name="reg_confirmation_text">Do you want to register with</string>
+    <string name="confirm">Confirm</string>
+
+    <!--dialog blcok user popup-->
+    <string name="view_profile">View Profile</string>
+    <string name="unblock">Unblock</string>
+
+    <!--dialog view group deatils -->
+    <string name="promote">Promote</string>
+    <string name="demote">Demote</string>
+    <string name="remove">Remove</string>
+    <string name="addToContact">Add To Contact</string>
+
+    <!--status-->
+    <string name="your_currnt_status">Your current status</string>
+    <string name="select_new_status">Select your new status</string>
+
+    <!--add mask-->
+    <string name="send">Send</string>
+
+
+    <!--share image-->
+    <string name="ad_caption">Add a caption...</string>
+
+    <!--  find people-->
+    <string name="my_contacts">Search My Vhortext Contacts</string>
+    <string name="nearby_user">Search with Nearby Users</string>
+    <string name="around_globe">Search around the Globe</string>
+
+    <!--chat screen-->
+
+    <string name="et_hint_chat">Enter message</string>
+    <string name="video">Video</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="loaction">Location</string>
+    <string name="contact">Contact</string>
+    <string name="youtube">YouTube</string>
+    <string name="news">News</string>
+    <string name="sketch">Sketch</string>
+
+    <string name="toast_block_user">You have blocked this person</string>
+
+    <!--select country-->
+    <string name="search_your_country">Search Your Country</string>
+
+
+    <!-- include chat request-->
+
+
+    <!--  chat drop down-->
+    <string name="classmate">Classmate</string>
+    <string name="friend">Friend</string>
+    <string name="acquaintance">Acquaintance</string>
+    <string name="coworker">Co-worker</string>
+    <string name="colleague">Colleague</string>
+    <string name="other">Other</string>
+
+    <!--    edit profile-->
+
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="select_gender">Select Gender</string>
+
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="save">Save</string>
+
+    <!--    choose people-->
+    <string name="et_search_hint">Search by Name or Phone No</string>
+
+    <!--  map-->
+    <!--    view group details-->
+    <string name="media">Media</string>
+    <string name="admin">Admin</string>
+    <string name="exitGroup">Exit Group</string>
+    <string name="participants">Members</string>
+    <string name="blockParticipants">Blocked Members</string>
+
+    <!--toast strinmg-->
+
+
+    <string name="share_img_limit">Maximum 10 items please</string>
+    <string name="share_no_image_selected">No image selected</string>
+
+    <string name="invite_send_succ">Your invitation sent successfully</string>
+    <string name="invite_unsucc">Unsuccessful to send your invitation</string>
+
+
+
+
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="no_data">No Data available</string>
+    <string name="no_search">No search data available</string>
+    <string name="network_try">Something went wrong! Please try again.</string>
+    <string name="profile_update_success">Profile updated successfully.</string>
+
+
+    <string name="ContactBroadcast">Vhortext.ContactSync</string>
+    <string name="gps_settings_header">GPS settings</string>
+    <string name="gps_not_enabled_redirect_message">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="email_subject">Vhortext Chat with</string>
+    <string name="no_fav_list">No favorite found.</string>
+    <string name="no_contacts_list">No contacts found.</string>
+    <string name="no_group_list">No group found.</string>
+    <string name="select_lang_hint">Select your language</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="view_location">View Location</string>
+    <string name="address_not_available">Address not available. Please try again.</string>
+    <string name="cotact_pick_no_number">Seems like something error in your selected number. Please try again.</string>
+    <string name="contact_pick_no_number">Please select at least one number to send</string>
+    <string name="translation_off">Translation Off</string>
+    <string name="translation_on">Translation On</string>
+    <string name="retry_settings_location_alert">Your location service is off please activate location service to search</string>
+    <string name="around_the_globe">Around The Globe</string>
+    <string name="no_people_found">No Search Result Found</string>
+    <string name="alert.failure.video_pick">Failed to fetch video</string>
+    <string name="alert.failure.video_path_empty">Empty or corrupted video file</string>
+    <string name="alert.failure.video_player_not_found">No supported video player found</string>
+    <string name="alert.error.invalid_phone_number">Please provide a valid mobile number</string>
+    <string name="error.label.no_blocked_user">No blocked user found</string>
+    <string name="no_conversation_found">No Conversation Found</string>
+    <string name="ok">Ok</string>
+    <string name="alert.warn.user_blocked_need_to_unblock_to_favourite">Friend needs to be unblocked to make as favorite</string>
+    <string name="alert.warn.friend_will_be_unfavourite_once_block">Friend will be unfavorite once you block</string>
+
+    <string name="alert.failure.unknown_error">Something went wrong. Please try again </string>
+    <string name="alert.failure.network_time_out">Connection timed out</string>
+    <string name="alert.failure.network_connection_failed">Failed to connect. Please check your internet connection</string>
+    <string name="alert.failure.server_connection_failed_">Failed to connect to server. Please try again</string>
+    <string name="no_description">No description</string>
+    <string name="alert_failure_yahoo_not_found">"No supported browser found. "</string>
+    <string name="copyrights">Copyright @2015 Vhortext. All rights reserved.</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="add_attachment">Add attachments (optional):</string>
+
+    <string name="chooserIntent">Select Source</string>
+    <string name="alert_select_country_error_new">Failed to detect Country code. Please enter the country code</string>
+    <string name="title_activity_activity_tutorial">ActivityTutorial</string>
+
+<!--Copy Right-->
+    <string name="you">You</string>
+    <string name="please_wait">Please wait</string>
+    <string name="alert_leave_group">Sure you want to exit this group?</string>
+    <string name="alert_delete_group">Sure you want to delete this group?</string>
+
+    <string name="alert_delete_chat_item">Do you want to delete the %1$s?</string>
+    <!--<string name="live_simple_be_awsm">Live simple, be awesome</string>-->
+
+    <string name="be_the_best_you">Be the best you</string>
+
+    <string name="blank_status_alert">Please set your status first</string>
+    <string name="alert_remove_member_from_group">Do you want to remove this friend from this group?</string>
+    <string name="alert_leave_group_success">You are no longer a participant in this group.</string>
+    <string name="alert_delete_group_success">The group has been deleted successfully.</string>
+    <string name="alert_promote_before_leaving_group">You need to promote a member before leaving the group</string>
+    <string name="vhortext_copyright_details">All intellectual property rights in or to Vhortext and any Vhortext Services (including any future updates, upgrades and new versions to all such Vhortext Service), will continue to belong to us and our licensors. The design of the Vhortext service along with Vhortext created text, graphic, scripts, interactive features and the like, and the trademarks, service marks and logos contained therein (“Mark”), are owned by and licensed to Vhortext, subject to copyright and other intellectual property rights under the US and foreign laws and international conventions. Except as expressly provided in these Terms, you have no right to use our intellectual property rights. In particular, you have no right to use our trademarks or product names, logos, domain names or other distinctive brand features without our prior written consent. Any comments or suggestions you may provide regarding Vhortext are entirely voluntary and we will be free to use these comments and suggestions at our discretion without any payment or other obligation to you. The Service is provided to you AS IS for your information and personal use only. Vhortext reserves all rights not expressly granted in and to the Service. You agree to not engage in the use, copying, or distribution of any of the Service other than expressly permitted herein, including any use, copying, or distribution of Status Submissions of third parties obtained through the Service for any commercial purposes.</string>
+    <string name="profile_alert_profile_name_blank">Name can not be blank</string>
+    <string name="gender_all">All</string>
+    <string name="term_of_use_and_privacy_policy">Terms of Use &#038; Privacy Policy</string>
+    <string name="intellectual_property_rights">Intellectual Property Rights</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="mobile_no">Mobile no.</string>
+    <string name="tap_agree_and_continue_to_accept">Tap \"Agree and Continue\" to accept</string>
+    <string name="not_specified">Not specified</string>
+    <string name="activity_contact_sync">Contact Sync</string>
+
+</resources>

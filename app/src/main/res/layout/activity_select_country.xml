@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wachat="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/appBar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_Brown"
+        android:padding="10dp">
+
+        <include
+            android:id="@+id/rel_search"
+            layout="@layout/include_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+  <com.wachat.customViews.WaChatIndexableListView
+      android:id="@+id/lv_country"
+      android:visibility="gone"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:listSelector="@android:color/white"
+      android:divider="@android:color/transparent"
+      >
+
+  </com.wachat.customViews.WaChatIndexableListView>
+
+
+    <com.wachat.customViews.ChatTextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/m_common"
+        android:padding="7dp"
+        android:text="@string/no_search"
+        android:textSize="@dimen/text_size_xlarge"
+        android:textColor="@android:color/background_dark"
+        wachat:customFont="@string/font" />
+</LinearLayout>

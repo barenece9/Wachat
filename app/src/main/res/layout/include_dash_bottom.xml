@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wachat="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/app_Brown">
+
+    <FrameLayout
+        android:id="@+id/fl_Chat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_Chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_chat_tab"/>
+        <com.wachat.customViews.ChatTextView
+            android:id="@+id/tv_Chat_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_small"
+            android:background="@drawable/ic_notificaton_red_circle"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            wachat:customFont="@string/font"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_Favorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_Favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_favourite_tab"/>
+        <!--<com.wachat.customViews.ChatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_small"
+            wachat:customFont="@string/font"/>-->
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_Group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_Group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_group_tab"/>
+        <com.wachat.customViews.ChatTextView
+            android:id="@+id/tv_Group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_small"
+            android:background="@drawable/ic_notificaton_red_circle"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            wachat:customFont="@string/font"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_Profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_contact_tab"/>
+        <!--<com.wachat.customViews.ChatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_small"
+            wachat:customFont="@string/font"/>-->
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fl_More"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_More"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_more_tab"/>
+    </FrameLayout>
+
+</LinearLayout>
